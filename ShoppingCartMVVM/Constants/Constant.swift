@@ -6,3 +6,16 @@
 //
 
 import Foundation
+
+
+enum Constant {
+    
+    enum API {
+        
+        static let url = "https://fakestoreapi.com"
+        
+        static let product = "/products"
+    }
+    
+    
+}

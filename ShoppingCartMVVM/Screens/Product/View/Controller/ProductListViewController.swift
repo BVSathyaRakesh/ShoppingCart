@@ -19,6 +19,10 @@ class ProductListViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
         
+    @IBAction func addButtonClicked(_ sender: Any) {
+        let product = AddProduct(title: "Rakesh Kumar")
+        viewModel.addProducts(parameters: product)
+    }
 }
 
 extension ProductListViewController {
@@ -36,7 +40,6 @@ extension ProductListViewController {
     func observeEvents(){
         viewModel.eventHandler = { [weak self] event in
             guard let self else { return }
-            
             switch event {
             case .loading : break
             case .stopLoading : break
@@ -46,6 +49,8 @@ extension ProductListViewController {
                 }
             case .error(let error) :
                 print(error)
+            case .newProductAdded(let product) :
+                print(product)
             }
          }
     }

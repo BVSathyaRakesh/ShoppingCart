@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "77780E72-75DF-4881-A968-2CE32EF825EA"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9D906396-249E-4B06-86FC-CBC6CA48737B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ShoppingCartMVVM/Screens/Product/View/ProductListViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "60"
+            endingLineNumber = "60"
+            landmarkName = "tableView(_:numberOfRowsInSection:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "277EC6EE-F6F7-45A2-9648-B2AEAD998EBC"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ShoppingCartMVVM/Screens/Product/View/ProductListViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "69"
+            endingLineNumber = "69"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "786CB1E5-1718-4DB3-82A7-326516158242"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ShoppingCartMVVM/Screens/Product/ViewModel/ProductViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "addProducts(parameters:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "786CB1E5-1718-4DB3-82A7-326516158242 - 7e6bcedb1b0800fa"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ShoppingCartMVVM.ProductViewModel.addProducts(parameters: ShoppingCartMVVM.AddProduct) -&gt; ()"
+                  moduleName = "ShoppingCartMVVM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sathya/Documents/Swift/ShoppingCartMVVM/ShoppingCartMVVM/Screens/Product/ViewModel/ProductViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "126">
+               </Location>
+               <Location
+                  uuid = "786CB1E5-1718-4DB3-82A7-326516158242 - 14f37329c23b7048"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;ShoppingCartMVVM.AddProduct, ShoppingCartMVVM.DataError&gt;) -&gt; () in ShoppingCartMVVM.ProductViewModel.addProducts(parameters: ShoppingCartMVVM.AddProduct) -&gt; ()"
+                  moduleName = "ShoppingCartMVVM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sathya/Documents/Swift/ShoppingCartMVVM/ShoppingCartMVVM/Screens/Product/ViewModel/ProductViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "238">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0695E632-DD7E-4A92-95C0-8FBB07C5C2B2"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ShoppingCartMVVM/Helper/APIManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "45"
+            endingLineNumber = "45"
+            landmarkName = "request(modelType:endpointType:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "0695E632-DD7E-4A92-95C0-8FBB07C5C2B2 - f562a5a7de7ec106"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ShoppingCartMVVM.APIManager.request&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable, &#x3c4;_0_0: Swift.Encodable&gt;(modelType: &#x3c4;_0_0.Type, endpointType: ShoppingCartMVVM.EndPointType, completion: (Swift.Result&lt;&#x3c4;_0_0, ShoppingCartMVVM.DataError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "ShoppingCartMVVM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sathya/Documents/Swift/ShoppingCartMVVM/ShoppingCartMVVM/Helper/APIManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "461">
+               </Location>
+               <Location
+                  uuid = "0695E632-DD7E-4A92-95C0-8FBB07C5C2B2 - f562a5a7de7ec106"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ShoppingCartMVVM.APIManager.request&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable, &#x3c4;_0_0: Swift.Encodable&gt;(modelType: &#x3c4;_0_0.Type, endpointType: ShoppingCartMVVM.EndPointType, completion: (Swift.Result&lt;&#x3c4;_0_0, ShoppingCartMVVM.DataError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "ShoppingCartMVVM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sathya/Documents/Swift/ShoppingCartMVVM/ShoppingCartMVVM/Helper/APIManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "636">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
